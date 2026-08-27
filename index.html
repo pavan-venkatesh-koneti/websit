@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center> <h1>LOGIN </h1>
+    <form action="./wedsite.html">
+    <Label for="user" >username </Label><br>
+    <input type="text" id="user " placeholder="enter user name"
+    pattern="[a-z0-9]+@(yahoo|gmail)+\.(com|in)+" autofocus required value="pavan123@gmail.com"><br><br><br>
+    <Label for="password">password</Label><br>
+    <input type="password" id="password" placeholder="enter password"
+    pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{4,16}" value="Pavan123$"
+    required title="one uppercase,one lowercase,one special symbols,numbers"><br><br><br>
+    <input type="submit"></center>
+</body>
+</html>
